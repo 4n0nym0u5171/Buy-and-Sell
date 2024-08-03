@@ -6,10 +6,8 @@
 }
 
 body {
-    background-image: url('C:\Users\ADMIN\Desktop\Buy & Sell\images.jfif');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: -moz-linear-gradient(to right, #ecd10325, #722a03ce);
+    background-color: chocolate;
     font-family:'Times New Roman', Times, serif;
     line-height: 1.5;
     color: 0 0 5px rgba(0, 0, 0, 0.045);
@@ -17,7 +15,7 @@ body {
 
 header {
     background: rgba(51, 51, 51, 0.8);
-    color: 0 0 5px rgba(194, 189, 189, 0.1);
+    color:0 0 5px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     text-align: center;
 }
@@ -27,18 +25,18 @@ header h1 {
 }
 
 nav ul {
-    list-style: none;
+    list-style:-o-linear-gradient();
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
+    display:-moz-grid-group;
     margin: 0 1rem;
 }
 
 nav ul li a {
-    color: 0 0 5px rgba(240, 235, 235, 0.086);
-    text-decoration:underline;
+    color: #070707ce;
+    text-decoration:none;
 }
 
 main {
@@ -61,7 +59,7 @@ main {
 }
 
 .product-1 {
-    background: #fff;
+    background:0 0 5px rgba(239, 235, 235, 0.394);
     border: 1px solid #dddddd00;
     border-radius: 5px;
     overflow: hidden;
@@ -74,7 +72,7 @@ main {
 .product-info {
     padding: 1rem;
     flex: 1;
-    color: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: #ffffff25;
 }
 
 .product-info h3 {
@@ -91,7 +89,7 @@ main {
 }
 
 .product-2 {
-    background: #fff;
+    background:0 0 5px rgba(239, 235, 235, 0.394);
     border: 1px solid #dddddd00;
     border-radius: 5px;
     overflow: hidden;
@@ -104,7 +102,7 @@ main {
 .product-info {
     padding: 1rem;
     flex: 1;
-    color:0 0 5px rgba(0, 0, 0, 0.1);
+    color:0 0 5px rgba(252, 247, 247, 0.254);
 }
 
 .product-info h3 {
@@ -117,7 +115,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     padding: 2rem;
-    color: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: 0 0 5px rgba(27, 27, 27, 0.576);
 }
 
 #buy {
@@ -126,7 +124,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     padding: 2rem;
-    color: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: 0 0 5px rgba(27, 27, 27, 0.576);
 }
 
 #sell {
@@ -135,7 +133,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     padding: 2rem;
-    color: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: 0 0 5px rgba(27, 27, 27, 0.576);
 }
 
 #about {
@@ -144,7 +142,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     padding: 2rem;
-    color: 0 0 5px rgba(0, 0, 0, 0.1);
+    color:0 0 5px rgba(27, 27, 27, 0.576);
 }
 
 #contact {
@@ -153,7 +151,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     padding: 2rem;
-    color: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: 0 0 5px rgba(27, 27, 27, 0.576);
 }
 
 section {
@@ -161,8 +159,8 @@ section {
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: 0 0 5px rgba(27, 27, 27, 0.576);
+    color:0 0 5px rgba(27, 27, 27, 0.576);
     text-align: center;
     padding: 1rem;
 }
