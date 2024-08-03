@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Unconfirmed</title>
+        <link rel="stylesheet" href="Styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Uncofirmed</h1>
+            <nav>
+                <ul>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#buy">Buy</a></li>
+                    <li><a href="#sell">Sell</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="products">
+                <h2>Products</h2>
+                <div class="product-list">
+                    <div class="product-1">
+                        <div class="product-image1"></div>
+                        <div class="product-info">
+                        <h3>House and Lot</h3>
+                        <p>Description of House and Lot.</p>
+                        <p>Price(srp): PHP9999999.99</p>
+                        </div>
+                    </div>
+                    <div class="product-2">
+                        <div class="product-image2"></div>
+                        <div class="product-info">
+                        <h3>Sofa</h3>
+                        <p>Description of Sofa.</p>
+                        <p>Price(srp): PHP8888888.88</p>
+                        </div>
+                    </div>
+            </section>
+            <section id="buy">
+                <h2>Buy Products</h2>
+                <p>Interseted in buying? Browse our product list and contact us for more details.</p>
+            </section>
+            <section id="sell">
+                <h2>Sell Products</h2>
+                <p>Want to sell something? Get in touch with us to list your products.</p>
+            </section>
+            <section id="about">
+                <h2>About Us</h2>
+                <p>"Hello and welcome to (Unconfirmed), where simplicity meets style. Enjoy a seamless marketplace for buying and selling with ease. Browse curated listings, connect effortlessly, and find what you need or offer what you have, all on one elegant platform. Experience shopping made simple."</p>
+            </section>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Email: <a href="mailto:johncarlgabriel1109@gmail.com">johncarlgabriel1109@gmail.com</a></p>
+                <p>Phone: 09760990090</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Unconfirmed. All rights reserved.</p>
+        </footer>
+    </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('/api/products')
+            .then(response => response.json())
+            .then(data => {
+                const productList = document.querySelector('.product-list');
+                data.forEach(product => {
+                    const productItem = document.createElement('div');
+                    productItem.className = 'product-item';
+                    productItem.innerHTML = `
+                    <h3>${product.name}</h3>
+                    <p>${product.description}</p>
+                    <p>Price: $${product.price}</p>
+                    `;
+                });
+            });
+        });
+    </script>
+</html>
