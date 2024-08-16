@@ -1,83 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, intial-scale=1.0">
-        <title>Unconfirmed</title>
-        <link rel="stylesheet" href="Styles.css">
-    </head>
-    <body>
-        <header>
-            <h1>Uncofirmed</h1>
-            <nav>
-                <ul>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#buy">Buy</a></li>
-                    <li><a href="#sell">Sell</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="products">
-                <h2>Products</h2>
-                <div class="product-list">
-                    <div class="product-1">
-                        <div class="product-image1"></div>
-                        <div class="product-info">
-                        <h3>House and Lot</h3>
-                        <p>Description of House and Lot.</p>
-                        <p>Price(srp): PHP9999999.99</p>
-                        </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNM Ecommerce</title>
+    <script src="https://kit.fontawesome.com/b331f0a017.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="pictures/logo/CNM 3.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="anout.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h4>Trade-in-Opportunity</h4>
+        <h2>Exceptional Value Offers</h2>
+        <h1>On All of Our Products</h1>
+        <p>Maximize Your Savings with Coupons and Enjoy Discounts Up to 70%!</p>
+        <button>Shop Now!</button>
+    </section>
+
+    <section id="feature" class=".section-p1">
+        <div class="fe-box">
+            <img src="pictures/features/f1.png" alt="">
+            <h6>Free Shipping!</h6>
+        </div>
+        <div class="fe-box">
+            <img src="pictures/features/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="pictures/features/f3.png" alt="">
+            <h6>Save Money!</h6>
+        </div>
+        <div class="fe-box">
+            <img src="pictures/features/f4.png" alt="">
+            <h6>Promotion</h6>
+        </div>
+        <div class="fe-box">
+            <img src="pictures/features/f5.png" alt="">
+            <h6>Happy Sell!</h6>
+        </div>
+        <div class="fe-box">
+            <img src="pictures/features/f6.png" alt="">
+            <h6>24/7 Support!</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Sample Modern Design Products</p>
+
+        <div class="pro-container">
+            <div class="pro">
+                <img src="pictures/Buy/B.png" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>Plain Black T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-                    <div class="product-2">
-                        <div class="product-image2"></div>
-                        <div class="product-info">
-                        <h3>Sofa</h3>
-                        <p>Description of Sofa.</p>
-                        <p>Price(srp): PHP8888888.88</p>
-                        </div>
+                    <h4>PHP. 999.99</h4>
+                </div>
+                <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Buy/BL.png" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>Plain Navy Blue T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-            </section>
-            <section id="buy">
-                <h2>Buy Products</h2>
-                <p>Interseted in buying? Browse our product list and contact us for more details.</p>
-            </section>
-            <section id="sell">
-                <h2>Sell Products</h2>
-                <p>Want to sell something? Get in touch with us to list your products.</p>
-            </section>
-            <section id="about">
-                <h2>About Us</h2>
-                <p>"Hello and welcome to (Unconfirmed), where simplicity meets style. Enjoy a seamless marketplace for buying and selling with ease. Browse curated listings, connect effortlessly, and find what you need or offer what you have, all on one elegant platform. Experience shopping made simple."</p>
-            </section>
-            <section id="contact">
-                <h2>Contact Us</h2>
-                <p>Email: <a href="mailto:johncarlgabriel1109@gmail.com">johncarlgabriel1109@gmail.com</a></p>
-                <p>Phone: 09760990090</p>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2024 Unconfirmed. All rights reserved.</p>
-        </footer>
-    </body>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            fetch('/api/products')
-            .then(response => response.json())
-            .then(data => {
-                const productList = document.querySelector('.product-list');
-                data.forEach(product => {
-                    const productItem = document.createElement('div');
-                    productItem.className = 'product-item';
-                    productItem.innerHTML = `
-                    <h3>${product.name}</h3>
-                    <p>${product.description}</p>
-                    <p>Price: $${product.price}</p>
-                    `;
-                });
-            });
-        });
-    </script>
+                    <h4>PHP. 999.99</h4>
+                </div>
+                <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Buy/R.png" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>Plain Red T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>PHP. 999.99</h4>
+                </div>
+                <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Buy/K.png" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>Plain Khaki T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>PHP. 999.99</h4>
+                </div>
+                <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Buy/M.png" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>Plain Mud T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>PHP. 999.99</h4>
+                </div>
+                <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Buy/PP.png" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>Plain Purple T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>PHP. 999.99</h4>
+                </div>
+                <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>Repair Services </h4>
+        <h2>up to <span>70% Off</span> - All T-shirts & Accessories</h2>
+        <button class="normal">Explore More</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Latest Products</h2>
+        <p>Sample Modern Design Products</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="pictures/Buy/B.png" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>Plain Black T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>PHP. 999.99</h4>
+                </div>
+                <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Buy/BL.png" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>Plain Navy Blue T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>PHP. 999.99</h4>
+                </div>
+                <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Buy/R.png" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>Plain Red T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>PHP. 999.99</h4>
+                </div>
+                <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Buy/K.png" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>Plain Khaki T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>PHP. 999.99</h4>
+                </div>
+                <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Buy/M.png" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>Plain Mud T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>PHP. 999.99</h4>
+                </div>
+                <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Buy/PP.png" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>Plain Purple T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>PHP. 999.99</h4>
+                </div>
+                <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            
+        </div>
+    </section>
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Awesome Deals!</h4>
+            <h2>Buy 1 Get 1 More For Free!</h2>
+            <span>The Best Outfits is on Sale at CNM E-COMMERCE</span>
+            <button class="white">Lear More</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>Out Soon!</h4>
+            <h2>Upcoming Items</h2>
+            <span>The Best Outfits is on Sale at CNM E-COMMERCE</span>
+            <button class="white">Collection</button>
+        </div>
+    </section>
+
+    <section id="cnmletter" class="section-p1 section-m1" >
+        <div class="cnmtext">
+            <h4>Sign Up For CNM</h4>
+            <p>Get E-mail updates about our latest shop and <span>AWESOME OFFERS!</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="You E-mail address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="pictures/logo/cnm tb.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Adress: </strong>Antipo City, Rizal</p>
+            <p><strong>Phone: </strong>09*********</p>
+            <p><strong>Hours: </strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="apps">
+                <img class="app" src="pictures/logo/app tb.png" alt="">
+            </div>
+            <p>Secured Payment Gateways </p>
+            <img class="pay" src="pictures/pay.png" alt="">
+        </div>
+
+        <div class="copyriht">
+            <p>© 2024, CNM E-COMMERCE</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
 </html>
